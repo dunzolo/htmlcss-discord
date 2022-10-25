@@ -155,3 +155,23 @@ li{
 .img-stars{
     width: 50%;
 }
+/* fine main */
+
+/* inizio footer */
+footer{
+    background-color: #2c2b2b;
+}
+
+.col-social{
+    width: 30%;
+    background-color:darksalmon;
+    border: 2px black solid;
+    height: 100px;
+}
+
+.col-products, .col-contacts, .col-resources, .col-name{
+    width: calc(70% / 4);
+    background-color: lightgreen;
+    border: 2px white solid;
+    height: 100px;
+}
