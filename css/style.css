@@ -188,7 +188,7 @@ footer li{
     width: calc(70% / 4);
 }
 
-footer img{
+.italy{
     width: 20px;
     padding: 10px 0;
     vertical-align: middle;
@@ -196,8 +196,14 @@ footer img{
 
 .social img{
     margin-right: 20px;
+    width: 20px;
+    padding: 10px 0;
 }
 
 span{
     font-size: 12px;
+}
+
+.border-top-white{
+    border-top: 1px solid #ffffff
 }
