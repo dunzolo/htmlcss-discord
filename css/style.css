@@ -26,12 +26,20 @@
     padding: 20px 0;
 }
 
+.padding-bottom-20{
+    padding-bottom: 20px;
+}
+
 .padding-horizontal-50{
     padding: 0 50px;
 }
 
 .background-grey{
     background-color: #d3d3d3;
+}
+
+.font-color{
+    color: #8EA1E1;
 }
 
 .margin-negative{
@@ -50,7 +58,7 @@ header{
     align-items: center;
 }
 
-ul{
+header ul{
     display: flex;
     justify-content: space-between;
     list-style-type: none;
@@ -58,7 +66,7 @@ ul{
     width: 100%;
 }
 
-li{
+header li{
     text-align: center;
     /* padding-top: 5px; */
 }
@@ -159,19 +167,27 @@ li{
 
 /* inizio footer */
 footer{
-    background-color: #2c2b2b;
+    background-color: #1a1818;
+    color: #ffffff;
+}
+
+footer ul{
+    list-style-type: none;
+    width: 100%;
+}
+
+footer li{
+    line-height: 30px;
 }
 
 .col-social{
     width: 30%;
-    background-color:darksalmon;
-    border: 2px black solid;
-    height: 100px;
 }
 
 .col-products, .col-contacts, .col-resources, .col-name{
     width: calc(70% / 4);
-    background-color: lightgreen;
-    border: 2px white solid;
-    height: 100px;
+}
+
+.italy{
+    width: 25px;
 }
