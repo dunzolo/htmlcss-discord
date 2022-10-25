@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* utils */
+.container{
+    width: 75%;
+    margin: 0 auto;
+}
+
+.row{
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.padding-vertical-20{
+    padding: 20px 0;
+}
+
+/* inizio header */
+header{
+    height: 100px;
+    background-color: #255EE9;
+    display: flex;
+    align-items: center;
+}
+
+.col-logo, .col-button{
+    width: 25%;
+    height: 50px;
+    background-color: orange;
+    border: 1px solid black;
+}
+
+.col-items{
+    width: 50%;
+    height: 50px;
+    background-color: orange;
+    border: 1px solid black;
+}
+/* fine header */
+
+/* inizio main */
+.background-img{
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
+}
+
+.container-sm{
+    width: 60%;
+    margin: 0 auto;
+    padding: 20px 0px;
+}
+
+.col-download{
+    width: 100%;
+    border: 1px solid black;
+    height: 300px;
+    background-color: palevioletred
+}
