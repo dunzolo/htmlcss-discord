@@ -68,12 +68,7 @@ header ul{
 
 header li{
     text-align: center;
-    /* padding-top: 5px; */
 }
-
-/* .col-logo, .col-button{
-    width: 25%;
-} */
 
 .col-items{
     width: 50%;
@@ -85,7 +80,7 @@ header li{
     color: #000000;
     border: none;
     border-radius: 20px;
-    padding: 10px;
+    padding: 10px 15px;
 }
 
 /* fine header */
@@ -102,11 +97,18 @@ header li{
     padding: 20px 0px;
 }
 
+.down-arrow::before{
+    content: '\1F817';
+    font-size: 18px;
+    font-weight: bold;
+    margin-right: 5px;
+}
+
 .col-download{
     width: 100%;
     color: #ffffff;
     text-align: center;
-    height: 300px;
+    height: 350px;
 }
 
 .col-download h1{
