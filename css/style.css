@@ -26,8 +26,20 @@
     padding: 20px 0;
 }
 
+.padding-horizontal-50{
+    padding: 0 50px;
+}
+
 .background-grey{
     background-color: #d3d3d3;
+}
+
+.margin-negative{
+    margin-top: -20px;
+}
+
+h2{
+    font-size: 30px;
 }
 
 /* inizio header */
@@ -119,24 +131,27 @@ li{
 }
 
 .col-img{
-    /* height: 300px; */
     width: 60%;
-    /* background-color: lightblue;
-    border: 1px solid black; */
 }
 
 .col-text{
-    /* height: 300px; */
     width: 25%;
     padding-top: 20px;
-    /* background-color: pink;
-    border: 1px solid black; */
 }
 
 .col-img img{
     width: 90%;
 }
 
-.col-text h2{
-    font-size: 30px;
+.col-100{
+    width: 100%;
+    text-align: center;
+}
+
+.img-monitor{
+    width: 100%;
+}
+
+.img-stars{
+    width: 50%;
 }
