@@ -26,6 +26,10 @@
     padding: 20px 0;
 }
 
+.padding-vertical-100{
+    padding: 100px 0;
+}
+
 .padding-bottom-20{
     padding-bottom: 20px;
 }
@@ -128,7 +132,17 @@ header li{
     font-size: 16px;
     padding: 10px 20px;
     border-radius: 20px;
-    margin-right: 30px;
+    margin: 20px 30px 0px 0px;
+}
+
+.btn-download-white{
+    background-color: #ffffff;
+    color: #000000;
+}
+
+.btn-download_lightblue{
+    background-color: #8EA1E1;
+    color:#ffffff;
 }
 
 .btn-open{
