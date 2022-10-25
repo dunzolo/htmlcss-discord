@@ -1,0 +1,242 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* utils */
+.container{
+    width: 75%;
+    margin: 0 auto;
+}
+
+.row{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.align-top{
+    display: flex;
+    align-items: flex-start;
+}
+
+.padding-vertical-20{
+    padding: 20px 0;
+}
+
+.padding-vertical-50{
+    padding: 50px 0px 20px 0px;
+}
+
+.padding-vertical-100{
+    padding: 100px 0;
+}
+
+.padding-bottom-20{
+    padding-bottom: 20px;
+}
+
+.padding-horizontal-50{
+    padding: 0 50px;
+}
+
+.background-grey{
+    background-color: #d3d3d3;
+}
+
+.font-color{
+    color: #8EA1E1;
+}
+
+.margin-negative{
+    margin-top: -20px;
+}
+
+h2{
+    font-size: 30px;
+}
+
+/* inizio header */
+header{
+    height: 100px;
+    background-color: #255EE9;
+    display: flex;
+    align-items: center;
+}
+
+header ul{
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    padding-left: 0px;
+    width: 100%;
+}
+
+header li{
+    text-align: center;
+}
+
+.col-items{
+    width: 50%;
+    color: #ffffff;
+}
+
+.btn-login{
+    border: none;
+    border-radius: 20px;
+    padding: 10px 15px;
+}
+
+.btn-login-white{
+    background-color: #ffffff;
+    color: #000000;
+}
+
+/* fine header */
+
+/* inizio main */
+.background-img{
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
+}
+
+.container-sm{
+    width: 50%;
+    margin: 0 auto;
+    padding: 20px 0px;
+}
+
+.down-arrow::before{
+    content: '\1F817';
+    font-size: 18px;
+    font-weight: bold;
+    margin-right: 5px;
+}
+
+.col-download{
+    width: 100%;
+    color: #ffffff;
+    text-align: center;
+    height: 350px;
+}
+
+.col-download h1{
+    font-size: 50px;
+    padding: 20px;
+}
+
+.col-download p{
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.btn-download{
+    background-color: #ffffff;
+    color: #000000;
+    border: none;
+    font-size: 16px;
+    padding: 10px 20px;
+    border-radius: 20px;
+    margin: 20px 30px 0px 0px;
+}
+
+.btn-download-white{
+    background-color: #ffffff;
+    color: #000000;
+}
+
+.btn-download_lightblue{
+    background-color: #8EA1E1;
+    color:#ffffff;
+}
+
+.btn-open{
+    background-color: #000000;
+    color: #ffffff;
+    border: none;
+    font-size: 16px;
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+
+.col-img{
+    width: 60%;
+}
+
+.col-text{
+    width: 25%;
+    padding-top: 20px;
+}
+
+.col-img img{
+    width: 90%;
+}
+
+.col-100{
+    width: 100%;
+    text-align: center;
+}
+
+.img-monitor{
+    width: 100%;
+}
+
+.img-stars{
+    width: 50%;
+}
+/* fine main */
+
+/* inizio footer */
+footer{
+    background-color: #1a1818;
+    color: #ffffff;
+}
+
+footer ul{
+    list-style-type: none;
+    width: 100%;
+}
+
+footer li{
+    line-height: 25px;
+    font-size: 15px;
+}
+
+.col-social{
+    width: 30%;
+}
+
+.col-products, .col-contacts, .col-resources, .col-name{
+    width: calc(70% / 4);
+}
+
+.italy{
+    width: 20px;
+    padding: 10px 0;
+    vertical-align: middle;
+}
+
+.social img{
+    margin-right: 20px;
+    width: 15px;
+    padding: 10px 0;
+}
+
+span{
+    font-size: 10px;
+}
+
+.border-top-white{
+    border-top: 1px solid #ffffff
+}
+
+.btn-login-lightblue{
+    background-color: #8EA1E1;
+    color:#ffffff;
+}
+
+.txt-italian::after{
+    content: '\25BC';
+}
