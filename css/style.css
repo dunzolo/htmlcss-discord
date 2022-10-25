@@ -26,6 +26,9 @@
     padding: 20px 0;
 }
 
+.background-grey{
+    background-color: #d3d3d3;
+}
 
 /* inizio header */
 header{
@@ -131,7 +134,7 @@ li{
 }
 
 .col-img img{
-    width: 100%;
+    width: 90%;
 }
 
 .col-text h2{
