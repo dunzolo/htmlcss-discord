@@ -17,6 +17,11 @@
     justify-content: space-between;
 }
 
+.align-top{
+    display: flex;
+    align-items: flex-start;
+}
+
 .padding-vertical-20{
     padding: 20px 0;
 }
@@ -108,5 +113,27 @@ li{
     font-size: 16px;
     padding: 10px 20px;
     border-radius: 20px;
+}
 
+.col-img{
+    /* height: 300px; */
+    width: 60%;
+    /* background-color: lightblue;
+    border: 1px solid black; */
+}
+
+.col-text{
+    /* height: 300px; */
+    width: 25%;
+    padding-top: 20px;
+    /* background-color: pink;
+    border: 1px solid black; */
+}
+
+.col-img img{
+    width: 100%;
+}
+
+.col-text h2{
+    font-size: 30px;
 }
