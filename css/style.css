@@ -26,6 +26,10 @@
     padding: 20px 0;
 }
 
+.padding-vertical-50{
+    padding: 50px 0px 20px 0px;
+}
+
 .padding-vertical-100{
     padding: 100px 0;
 }
@@ -79,12 +83,15 @@ header li{
     color: #ffffff;
 }
 
-.login{
-    background-color: #ffffff;
-    color: #000000;
+.btn-login{
     border: none;
     border-radius: 20px;
     padding: 10px 15px;
+}
+
+.btn-login-white{
+    background-color: #ffffff;
+    color: #000000;
 }
 
 /* fine header */
@@ -193,7 +200,8 @@ footer ul{
 }
 
 footer li{
-    line-height: 30px;
+    line-height: 25px;
+    font-size: 15px;
 }
 
 .col-social{
@@ -212,14 +220,23 @@ footer li{
 
 .social img{
     margin-right: 20px;
-    width: 20px;
+    width: 15px;
     padding: 10px 0;
 }
 
 span{
-    font-size: 12px;
+    font-size: 10px;
 }
 
 .border-top-white{
     border-top: 1px solid #ffffff
+}
+
+.btn-login-lightblue{
+    background-color: #8EA1E1;
+    color:#ffffff;
+}
+
+.txt-italian::after{
+    content: '\25BC';
 }
